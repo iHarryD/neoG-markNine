@@ -1,0 +1,108 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: #2d2d2d;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header > * {
+  margin: 0.5em;
+}
+
+main {
+  padding: 0em 1em;
+}
+
+ul {
+  list-style: none;
+}
+
+.genre-filter-div {
+  display: flex;
+  align-items: center;
+  margin: 2em;
+}
+
+.genre-filter-div ul {
+  margin: 2em;
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+  flex-grow: 1;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.6em 1.2em;
+  background: #1d1d1d;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  transition: background 250ms;
+}
+
+button:hover {
+  background: #000;
+}
+
+.recommendations li {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin: 0.5em 0;
+  background: #1d1d1d;
+}
+
+.recommendations p {
+  font-size: 1.4rem;
+  margin-bottom: 0.2em;
+}
+
+.recommendations span {
+  opacity: 0.5;
+}
+
+.logo-head img {
+  width: 100px;
+}
+
+footer {
+  margin-top: 10em;
+  background: #1d1d1d;
+  padding: 1em;
+  padding-bottom: 1px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+#social-media-tab li {
+  margin: 10px;
+}
+
+.social-media-links:hover {
+  text-decoration: underline;
+}
+
+#portfolio-link {
+  margin-top: 20px;
+  opacity: 0.6;
+  transition: all 250ms;
+}
+#portfolio-link:hover {
+  opacity: 1;
+}
