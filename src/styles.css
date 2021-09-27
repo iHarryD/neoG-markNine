@@ -106,3 +106,13 @@ footer {
 #portfolio-link:hover {
   opacity: 1;
 }
+
+@media (max-width: 850px) {
+  .genre-filter-div {
+    display: block;
+  }
+
+  .genre-filter-div ul {
+    flex-direction: column;
+  }
+}
