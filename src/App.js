@@ -3,20 +3,20 @@ import Logo from "../src/images/logo.png";
 import "./styles.css";
 
 const myRecommendations = {
+  "sci-fi": { "The Martian": 4.9, Intesteller: 4.7, Predestination: 4.8 },
   action: {
     "Mad Max: Fury Road": 4.6,
     "Avengers: Infinity War": 4.9,
     "John Wick": 4.9
   },
-  mystery: { "Shutter Island": 4.9, Identity: 4.8, Seven: 4.7 },
-  "sci-fi": { "The Martian": 4.9, Intesteller: 4.7, Predestination: 4.8 },
   horror: { "Lights Out": 4.5, IT: 4.5, Conjuring: 4.0 },
-  homor: { "The Dictator": 4.7, "Free Guy": 4.5, "Munna Bhai M.B.B.S": 4.5 },
+  humor: { "The Dictator": 4.7, "Free Guy": 4.5, "Munna Bhai M.B.B.S": 4.5 },
   fantasy: {
     "Harry Potter": 4.9,
     "Again Harry Potter": 4.9,
     "And again Harry Potter": 4.9
-  }
+  },
+  mystery: { "Shutter Island": 4.9, Identity: 4.8, Seven: 4.7 }
 };
 
 const genresAvailable = Object.keys(myRecommendations);
