@@ -68,13 +68,25 @@ button:hover {
   background: #1d1d1d;
 }
 
-.recommendations p {
+.movie-title {
   font-size: 1.4rem;
   margin-bottom: 0.2em;
 }
 
-.recommendations span {
+.movie-rating {
   opacity: 0.5;
+}
+
+.movie-synopsis {
+  cursor: default;
+  opacity: 0.8;
+  margin-top: 0.7em;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.movie-synopsis:hover {
+  opacity: 1;
 }
 
 .logo-head img {
@@ -116,3 +128,4 @@ footer {
     flex-direction: column;
   }
 }
+
